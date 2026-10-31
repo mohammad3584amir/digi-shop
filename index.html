@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101d35">
+  <title>دیجی شاپ | فروشگاه موبایل و لوازم جانبی</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container navbar">
+    <a href="#" class="logo">DIGI<span>SHOP</span></a>
+
+    <nav class="menu">
+      <a href="#">صفحه اصلی</a>
+      <a href="#categories">دسته‌بندی</a>
+      <a href="#products">محصولات</a>
+      <a href="#">تماس با ما</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="cart">🛒 سبد خرید <b id="cart-count">۰</b></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero container">
+    <div class="hero-content">
+      <span class="tag">فروشگاه تخصصی دیجیتال</span>
+      <h1>دنیای دیجیتال<br>در دستان توست!</h1>
+      <p>جدیدترین موبایل‌ها و لوازم جانبی با قیمت مناسب و خرید آسان.</p>
+      <a href="#products" class="main-btn">مشاهده محصولات ←</a>
+    </div>
+    <div class="hero-image">
+      <div class="phone">📱</div>
+      <div class="discount">پیشنهاد ویژه<br><strong>تخفیف ویژه</strong></div>
+    </div>
+  </section>
+
+  <section class="container categories" id="categories">
+    <h2>دسته‌بندی محصولات</h2>
+    <div class="category-grid">
+      <div class="category">📱<span>موبایل</span></div>
+      <div class="category">🎧<span>هندزفری</span></div>
+      <div class="category">🔌<span>شارژر</span></div>
+      <div class="category">📱<span>قاب و گلس</span></div>
+      <div class="category">⌚<span>ساعت هوشمند</span></div>
+    </div>
+  </section>
+
+  <section class="container products" id="products">
+    <div class="section-heading">
+      <h2>محصولات پرفروش</h2>
+      <span>جدیدترین محصولات دیجی شاپ</span>
+    </div>
+
+    <div class="product-grid">
+      <article class="product-card">
+        <div class="product-image">📱</div>
+        <h3>گوشی موبایل</h3>
+        <p>گوشی هوشمند با امکانات ویژه</p>
+        <strong>قیمت: تماس بگیرید</strong>
+        <button onclick="addToCart()">افزودن به سبد خرید</button>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">🎧</div>
+        <h3>هندزفری بلوتوثی</h3>
+        <p>صدای باکیفیت و طراحی زیبا</p>
+        <strong>قیمت: تماس بگیرید</strong>
+        <button onclick="addToCart()">افزودن به سبد خرید</button>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">🔋</div>
+        <h3>پاوربانک</h3>
+        <p>شارژ سریع و ظرفیت بالا</p>
+        <strong>قیمت: تماس بگیرید</strong>
+        <button onclick="addToCart()">افزودن به سبد خرید</button>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">🔌</div>
+        <h3>شارژر سریع</h3>
+        <p>شارژر باکیفیت و استاندارد</p>
+        <strong>قیمت: تماس بگیرید</strong>
+        <button onclick="addToCart()">افزودن به سبد خرید</button>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <h2>DIGI SHOP</h2>
+  <p>تجربه‌ای متفاوت از خرید محصولات دیجیتال</p>
+  <p>تمام حقوق برای دیجی شاپ محفوظ است.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
